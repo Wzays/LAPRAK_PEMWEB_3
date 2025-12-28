@@ -125,10 +125,9 @@
                                 <p class='mb-1'><strong>Nilai Akhir:</strong> " . number_format($nilai_akhir, 2) . "</p>
                                 <p class='mb-1'><strong>Grade:</strong> {$grade}</p>
                                 <p class='mb-3'><strong>Status:</strong> <span class='fw-bold text-{$tema_warna}'>{$status}</span></p>
-                                
-                                <div class='d-grid'>
-                                    <button class='btn btn-{$tema_warna}'>Selesai</button>
-                                </div>
+                                div class='d-grid'>
+                                <a href='polosan.php' class='btn btn-{$tema_warna}'>Selesai</a>
+                            </div>
                             </div>
                         </div>";
                     }
