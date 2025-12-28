@@ -109,7 +109,7 @@
                         $status = $is_lulus ? "LULUS" : "TIDAK LULUS";
                         $tema_warna = $is_lulus ? "success" : "danger"; // Hijau jika lulus, Merah jika tidak
 
-                        // 5. Tampilkan Hasil Penilaian (Mirip Screenshot)
+                        // 5. Tampilkan Hasil Penilaian 
                         echo "
                         <div class='mt-4'>
                             <div class='hasil-header bg-{$tema_warna}'>Hasil Penilaian</div>
